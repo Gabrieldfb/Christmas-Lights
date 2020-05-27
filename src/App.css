@@ -1,0 +1,75 @@
+.Title{
+  text-align: center;
+  background-color: black;
+  color: aqua;
+  font-size: 60px;
+  margin-bottom: 10px;
+}
+ .App{
+   display: flexbox;
+
+ }
+
+ .corpo{
+   height: 500px;
+   display: flex;
+   background-color: black;
+   
+   
+  }
+
+.light{
+border-radius: 50px;
+height: 20px;
+width: 20px;
+margin: auto;
+animation-name: blink;
+animation-duration: 2s;
+animation-iteration-count: infinite;
+
+}
+
+.off{
+ background-color: black;
+ border-radius: 50px;
+ height: 20px;
+ width: 20px;
+ margin: auto;
+}
+
+.first{
+  
+  background-color: red;
+  
+  
+}
+.second{
+  background-color: crimson;
+}
+.third{background-color: teal;
+}
+
+
+.control{
+  
+  background-color: black;
+  position: relative;
+    
+}
+ 
+ .control button{
+  margin: auto;
+  background-color: aqua;
+  position: relative;
+  right: 0;
+  }
+
+
+
+  @keyframes blink {
+    0%,100% {
+    opacity: 1; }
+
+    50%{
+     opacity: 0.1; }
+     }
